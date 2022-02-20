@@ -1,0 +1,117 @@
+body, *::before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size:62.5%;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color:hsl(0, 0%, 100%)
+    
+}
+
+main { 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+
+
+/* Central card section  */
+
+.card {
+    height: 60rem;
+    width: 35.3rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 2rem;    
+}
+
+.card-content {
+    margin: 2.5rem 2.5rem 0 2.5rem;   
+         
+}
+
+.card-content > img {
+    width:100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.card-content > h1 {
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+}
+
+.card-content > p {
+    color:#84A7D1;
+    font-weight: 300;
+    line-height: 2.6rem;
+
+}
+
+.card-content-label {
+    display: flex;
+    margin-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    border-bottom: 1px solid #2F4159;
+}
+
+.card-content-label > img:last-of-type {
+    margin-left: auto;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color:hsl(178, 100%, 50%);
+    padding-left: 0.6rem;
+}
+
+.card-content-label > p{
+    font-size: 1.6rem;
+    padding-left: 1rem;
+    color:#84A7D1;
+}
+
+.card-footer {
+    display: flex;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+
+.card-footer > p {
+    color:#84A7D1;
+    padding-left: 1.7rem;
+    font-size: 1.6rem;
+}
+
+.card-footer > img {
+    width:3rem;
+    height: auto;
+    border: 1px solid #fff;
+    border-radius: 1.5rem;
+    
+    
+}
+
+span {
+    color:hsl(0, 0%, 100%);
+    font-size: 1.6rem;
+}
+
+
+
